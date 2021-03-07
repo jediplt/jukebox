@@ -1,0 +1,98 @@
+html {
+    /* position: fixed;     */
+    /* overflow: hidden; */
+}
+
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+body {
+margin: 0px;
+position: fixed;
+top: 0px;overflow: hidden;
+background-color: white;
+}
+*{
+    font-family: sans-serif;
+}
+#__next {
+    position: fixed;
+    top: 0px;
+    width: 100vw; height: 100vh;
+}
+
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  input:fullscreen {
+    background-color: black;
+    color: black;
+    column-count: 3;
+    column-gap: 60px;
+}
+
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.tile {
+    margin: 4px;
+    border-style: solid;
+    border-width: 10px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.title_name {
+    color: white
+}
+
+
+.songRow {
+    background-color: rgb(50,50,50);
+    padding-left: 48px;
+    padding-right: 48px;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+}
+.songRow:hover {
+    background-color: rgb(80,80,80);
+}
