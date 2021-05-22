@@ -8,6 +8,8 @@ import Head from 'next/head'
 import Header from 'components/Header'
 import axios from 'axios'
 import VirtualController from 'components/VirtualController'
+import 'common/KeyboardListener'
+import Player from 'components/Player'
 function MyApp(context) {
   const { Component, pageProps: pageProps1 } = context;
   const route = useRouter();
@@ -22,6 +24,7 @@ function MyApp(context) {
   }}>
 
     <Provider store={store}>
+      <Player />
       <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
         <Header />
         <VirtualController />

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
-import { useGetChildren } from 'common/useFileExplorer'
+import useFileExplorer from 'common/useFileExplorer'
 export default function VideoPlayer(props) {
-    const children = useGetChildren();
+    const children = useFileExplorer();
     const media = children?.media || [];
 
     let currentTrack = useSelector(state => state.common.currentTrack)
